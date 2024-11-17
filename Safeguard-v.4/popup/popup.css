@@ -1,0 +1,102 @@
+body {
+    width: 200px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(251, 241, 223);
+    font-family: monospace;
+    font-weight: 400;
+    color: #272d36;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 5px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    text-shadow: 0 0 10px #755929;
+}
+
+.wrapper {
+    top: 10%;
+    left: 18%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.knob {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.knob_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid rgb(235, 208, 157);
+    background-color: #272d36;
+    box-shadow: 0px 0px 8px #000;
+}
+
+.knob_inner_pointer {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    left: 50%;
+    background-color: rgb(235, 208, 157);
+    border-radius: 50%;
+    transform: translate(-50%);
+    box-shadow: 0px 0px 2px inset;
+    transition: transform 0.3s;
+}
+
+.label-top {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 16px;
+}
+
+.label-l {
+    position: absolute;
+    top: 100%;
+    left: -30px;
+    color: black;
+    font-size: 16px;
+}
+
+.label-r {
+    position: absolute;
+    top: 100%;
+    right: -30px;
+    color: black;
+    font-size: 16px;
+}
+
+.current-value {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #272d36;
+    background-color: rgb(238, 221, 190);
+    padding: 8px;
+    border-radius: 8px;
+    width: 100px;
+    margin: auto;
+}
